@@ -115,8 +115,4 @@ LinkedIn
 https://www.linkedin.com/tonymart
 
 Email  
-tony.martinez5897@gma
-
-## Fun Fact:
-
-Within this very repo is some of the very first lines of code I ever written many years back!
+tony.martinez5897@gmail.com

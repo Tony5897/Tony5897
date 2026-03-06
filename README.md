@@ -1,9 +1,6 @@
 ## Hi there 👋
 
-adme"}
-# Tony Martinez
-
-Frontend Engineer focused on building modern web applications, browser extensions, and AI-powered tools.
+# I'm Tony Martinez  - Frontend Engineer focused on building modern web applications, browser extensions, and AI-powered tools.
 
 I enjoy building products that combine strong user experience with practical engineering. My work focuses on React, TypeScript, and modern JavaScript frameworks while exploring AI-driven development workflows.
 
@@ -115,7 +112,11 @@ Portfolio
 https://www.tonymartinez.tech
 
 LinkedIn  
-https://www.linkedin.com
+https://www.linkedin.com/tonymart
 
 Email  
 tony.martinez5897@gma
+
+## Fun Fact:
+
+Within this very repo is some of the very first lines of code I ever written many years back!

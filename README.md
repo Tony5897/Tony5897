@@ -102,7 +102,7 @@ Production deployment
 AI-assisted development workflows  
 Browser extension architecture  
 Building scalable web applications  
-Experimenting with AI integration in frontend systems
+Experimenting with AI integration in frontend and backend systems
 
 ---
 

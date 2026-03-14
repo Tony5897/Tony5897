@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-# I'm Tony Martinez  - Frontend Engineer focused on building modern web applications, browser extensions, and AI-powered tools.
+# I'm Tony Martinez  - Frontend Software Engineer focused on building modern web applications, browser extensions, and AI-powered tools.
 
 I enjoy building products that combine strong user experience with practical engineering. My work focuses on React, TypeScript, and modern JavaScript frameworks while exploring AI-driven development workflows.
 

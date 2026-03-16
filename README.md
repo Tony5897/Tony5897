@@ -6,7 +6,7 @@ rigor meet. My work spans AI-powered interfaces, browser extension architecture,
 the cross-platform, real-device complexity that comes with shipping multimodal systems
 into the wild.
 
-**[LinkedIn](https://www.linkedin.com/in/tonymartinez5897/)** · **[Email](mailto:tony5897@gmail.com)**
+**[LinkedIn](https://www.linkedin.com/in/tonymartinez5897/)** · **[Email](mailto:tony.martinez5897@gmail.com)**
 
 ---
 

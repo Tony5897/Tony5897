@@ -3,7 +3,7 @@
 
 I build **production-grade web products** where interface quality, browser behavior, and real implementation detail matter. My work sits at the intersection of **frontend engineering, browser extension architecture, AI-assisted systems, and cross-platform debugging** — especially when a polished UI still has to survive real device constraints, service worker lifecycles, and production deployment realities.
 
-**[Portfolio](https://www.tonymartinez.tech)** · **[LinkedIn](https://www.linkedin.com/in/tonymartinez5897/)** · **[Email](mailto:hello@tonymartinez.tech)**
+**[Portfolio](https://www.tonymartinez.tech)** · **[LinkedIn](https://www.linkedin.com/in/tonymartinezpdx/)** · **[Email](mailto:hello@tonymartinez.tech)**
 
 ---
 
@@ -109,4 +109,4 @@ I care about understanding what is actually running — especially when the debu
 
 ---
 
-📍 Portland, OR · [Portfolio](https://www.tonymartinez.tech) · [LinkedIn](https://www.linkedin.com/in/tonymartinez5897/) · [Email](mailto:hello@tonymartinez.tech)
+📍 Portland, OR · [Portfolio](https://www.tonymartinez.tech) · [LinkedIn](https://www.linkedin.com/in/tonymartinezpdx/) · [Email](mailto:hello@tonymartinez.tech)

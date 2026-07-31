@@ -31,26 +31,26 @@ Production-grade web products where interface quality, browser behavior, and rea
 
 ## Projects
 
-### [AptivAI](https://github.com/Tony5897/aptiv-analytics) — Pre-Send Email Testing Platform *(In Progress)*
+### SigSent — The Human Signal Lab
 
-AptivAI is being re-centered around **Signal Lab**: a pre-send email testing workflow where users create email variants, generate reviewer links, capture human-response signals, compare outcomes, and improve copy before launch.
+A full-stack pre-send email testing product. Users create email variants, generate tokenized reviewer links, capture human-response signals, compare outcomes, and refine copy before launch — with a Gemini-powered assistant grounded in real campaign data rather than generic completions.
 
-**The Product Direction:**  
-Instead of treating AI as the source of truth, AptivAI is moving toward a system where **human evidence comes first**. The strongest version of the product is not a generic AI email analytics platform. It is a **structured experimentation product** for trust, clarity, and action intent before an email is sent.
+The product is structured around human evidence, not AI-generated predictions. It is a structured experimentation workflow for measuring trust, clarity, and action intent before an email is sent.
 
-**The Stack:** React + TypeScript frontend, Node.js/Express backend, MongoDB, Firebase Auth, Gemini API, Google Cloud TTS, and MediaPipe.
+**Stack:** React, TypeScript, Tailwind CSS, Node.js, Express, MongoDB, Firebase Auth, Gemini API, Google Cloud TTS, MediaPipe
 
-**What makes it hard:**
-- **Signal Lab architecture:** building tests, variants, reviewer sessions, public tokenized review links, event capture, survey collection, and comparison reporting without tearing apart the broader app
-- **Public reviewer session flow:** secure token handling, expiration, stateful session tracking, and event capture without requiring reviewer authentication
-- **Additive product evolution:** reshaping a broader analytics prototype into a sharper product while preserving working flows like the dashboard assistant and existing authenticated product areas
-- **Cross-platform complexity:** earlier multimodal and browser/device-specific work introduced real debugging constraints, especially across Safari/iPhone behavior and client-side runtime handling
+**Architecture:**
 
-**The Result:**  
-AptivAI is evolving into a more credible software product: **variant creation, reviewer sessions, human-response capture, comparison reporting, and later evidence-backed AI revision** — with the broader assistant and analytics platform still supporting the product around it.
+- **Signal Lab workflow:** Tests, variants, reviewer sessions, tokenized public review links, behavioral event capture, survey collection, and comparison reporting — structured as a cohesive product, not isolated features
+- **Public reviewer sessions:** Secure token handling, expiration, stateful session tracking, and event capture without requiring reviewer authentication
+- **On-device processing:** Optional MediaPipe FaceLandmarker for client-side facial-reaction capture within the broader workspace
+- **Cross-platform constraints:** Browser- and device-specific work across Safari, iPhone, and client-side runtime handling, including multimodal input
 
-**CI/CD:** GitHub Actions — lint, typecheck, tests, and build on every PR.  
-**[Live Demo →](https://aptiv-analytics.vercel.app)**
+**CI/CD:** GitHub Actions — lint, typecheck, tests, and build on every PR.
+
+**Status:** Live product, actively developed · source is private
+
+[Live app →](https://sigsent.com) · [Portfolio →](https://www.tonymartinez.tech/#projects)
 
 ---
 

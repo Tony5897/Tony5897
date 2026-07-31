@@ -9,23 +9,24 @@ Production-grade web products where interface quality, browser behavior, and rea
 
 ## Current Focus
 
-- **Browser-platform engineering:** Building Chrome Manifest V3 extensions, service-worker-driven workflows, isolated UI injection, and frontend systems that have to work inside real browser constraints.
-- **AI-integrated product systems:** Using models as part of the product stack where they support workflow quality, reasoning, and UX — not as a substitute for real implementation or human evidence.
+- **Browser-platform engineering:** Chrome Manifest V3 extensions, service-worker-driven workflows, isolated UI injection, and frontend systems that have to work inside real browser constraints.
+- **AI-integrated product systems:** Models as part of the product stack where they support workflow quality, reasoning, and UX — not as a substitute for real implementation or human evidence.
 - **Cross-platform debugging:** Solving browser- and device-specific issues on physical hardware using Safari Web Inspector, ngrok, and live debugging workflows across iPhone, Safari, WebGL, and media/runtime edge cases.
 - **Release-minded frontend systems:** Shipping with TypeScript, testing, CI, and production behavior in mind — treating maintainability, debuggability, and deployment quality as part of the product.
-
 ---
+
+## Stack
 
 ## Stack
 
 | Domain | Technologies | Focus |
 | :--- | :--- | :--- |
-| **Frontend Engineering** | React, Next.js, TypeScript, Tailwind CSS | Component systems, state flow, performance-minded frontend architecture |
-| **Browser Platform** | Chrome MV3, Service Workers, MutationObserver, Shadow DOM, Web APIs | Extension lifecycle, DOM orchestration, isolated UI injection |
-| **AI & Media** | Gemini, OpenAI, MediaPipe, Google Cloud TTS | AI-assisted product workflows, multimodal analysis, voice features |
-| **Mobile & Debugging** | Safari Web Inspector, ngrok, iPhone camera handling | Real-device debugging, mobile QA, browser/runtime troubleshooting |
-| **Ops & Quality** | Vitest, Jest, GitHub Actions, Husky | Linting, automated tests, CI discipline, release-minded workflows |
-
+| **Frontend** | React, Next.js, TypeScript, Tailwind CSS | Component systems, state flow, performance-minded architecture |
+| **Backend & Data** | Node.js, Express, MongoDB, Firebase Auth | REST APIs, authentication, data modeling |
+| **Browser Platform** | Chrome MV3, Service Workers, Shadow DOM, MutationObserver, Web APIs | Extension lifecycle, DOM orchestration, isolated UI injection |
+| **AI & Media** | Gemini, OpenAI, MediaPipe, Google Cloud TTS | Product workflows, multimodal analysis, voice features |
+| **Mobile & Debugging** | Safari Web Inspector, ngrok, iPhone camera handling | Real-device debugging, mobile QA, runtime troubleshooting |
+| **Ops & Quality** | Vitest, Jest, GitHub Actions, Husky | Automated tests, CI discipline, release-minded workflows |
 ---
 
 ## Projects

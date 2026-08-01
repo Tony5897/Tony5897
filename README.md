@@ -31,7 +31,7 @@ Production-grade web products where interface quality, browser behavior, and rea
 
 ## Projects
 
-### SigSent — The Human Signal Lab
+### [SigSent](https://sigsent.com) - The Human Signal Lab
 
 A full-stack pre-send email testing product. Users create email variants, generate tokenized reviewer links, capture human-response signals, compare outcomes, and refine copy before launch — with a Gemini-powered assistant grounded in real campaign data rather than generic completions.
 

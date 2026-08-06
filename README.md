@@ -17,8 +17,6 @@ Production-grade web products where interface quality, browser behavior, and rea
 
 ## Stack
 
-## Stack
-
 | Domain | Technologies | Focus |
 | :--- | :--- | :--- |
 | **Frontend** | React, Next.js, TypeScript, Tailwind CSS | Component systems, state flow, performance-minded architecture |

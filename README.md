@@ -1,7 +1,7 @@
 # Tony Martinez
 ### Software Developer · Portland, OR · Products, Platforms and AI-Integrated Web Systems
 
-Production-grade web products where interface quality, browser behavior, and real implementation detail matter. Work at the intersection of frontend engineering, browser extension architecture, AI-assisted systems, and cross-platform debugging — especially when a polished UI still has to survive real device constraints, service worker lifecycles, and production deployment realities.
+I build production-grade web products where interface quality, browser behavior, and real implementation detail matter. My work sits at the intersection of frontend engineering, browser extension architecture, AI-assisted systems, and cross-platform debugging — especially when a polished UI still has to survive real device constraints, service worker lifecycles, and production deployment realities.
 
 **[Portfolio](https://www.tonymartinez.tech)** · **[LinkedIn](https://www.linkedin.com/in/tonymartinezpdx/)** · **[Email](mailto:hello@tonymartinez.tech)**
 
@@ -9,10 +9,10 @@ Production-grade web products where interface quality, browser behavior, and rea
 
 ## Current Focus
 
-- **Browser-platform engineering:** Chrome Manifest V3 extensions, service-worker-driven workflows, isolated UI injection, and frontend systems that have to work inside real browser constraints.
-- **AI-integrated product systems:** Models as part of the product stack where they support workflow quality, reasoning, and UX — not as a substitute for real implementation or human evidence.
-- **Cross-platform debugging:** Solving browser- and device-specific issues on physical hardware using Safari Web Inspector, ngrok, and live debugging workflows across iPhone, Safari, WebGL, and media/runtime edge cases.
-- **Release-minded frontend systems:** Shipping with TypeScript, testing, CI, and production behavior in mind — treating maintainability, debuggability, and deployment quality as part of the product.
+- **Browser-platform engineering:** I build Chrome Manifest V3 extensions, service-worker-driven workflows, isolated UI injection, and frontend systems that have to work inside real browser constraints.
+- **AI-integrated product systems:** I use models as part of the product stack to support workflow quality, reasoning, and UX — not as a substitute for real implementation or human evidence.
+- **Cross-platform debugging:** I solve browser- and device-specific issues on physical hardware using Safari Web Inspector, ngrok, and live debugging workflows across iPhone, Safari, WebGL, and media/runtime edge cases.
+- **Release-minded frontend systems:** I ship with TypeScript, testing, CI, and production behavior in mind — treating maintainability, debuggability, and deployment quality as part of the product.
 ---
 
 ## Stack

@@ -22,9 +22,9 @@ I build production-grade web products where interface quality, browser behavior,
 | **Frontend** | React, Next.js, TypeScript, Tailwind CSS | Component systems, state flow, performance-minded architecture |
 | **Backend & Data** | Node.js, Express, MongoDB, Firebase Auth | REST APIs, authentication, data modeling |
 | **Browser Platform** | Chrome MV3, Service Workers, Shadow DOM, MutationObserver, Web APIs | Extension lifecycle, DOM orchestration, isolated UI injection |
-| **AI & Media** | Gemini, OpenAI, MediaPipe, Google Cloud TTS | Product workflows, multimodal analysis, voice features |
+| **AI & Media** | Gemini, MediaPipe, Google Cloud TTS | Product workflows, multimodal analysis, voice features |
 | **Mobile & Debugging** | Safari Web Inspector, ngrok, iPhone camera handling | Real-device debugging, mobile QA, runtime troubleshooting |
-| **Ops & Quality** | Vitest, Jest, GitHub Actions, Husky | Automated tests, CI discipline, release-minded workflows |
+| **Ops & Quality** | Vitest, Jest, ESLint, GitHub Actions | Automated tests, CI discipline, release-minded workflows |
 ---
 
 ## Projects

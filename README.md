@@ -56,9 +56,9 @@ The product is structured around human evidence, not AI-generated predictions. I
 
 *(formerly Portland Timbers Matchday)* A Manifest V3 extension that shows upcoming Portland Timbers matches with a live countdown, TV/streaming info, and a fan confidence poll — expanding to cover Portland Thorns matches too, as the first client of a planned multi-surface matchday platform.
 
-**The Architecture:** `chrome.storage.local` for state, alarm-based hourly refresh, runtime messaging between popup and service worker, and a three-tier data resolution strategy (live ESPN API → cache → bundled fallback). Fan confidence poll uses Firebase anonymous auth and Cloud Functions. Safari support is handled through Xcode conversion with no polyfills required.
+**The Architecture:** `chrome.storage.local` for state, alarm-based hourly refresh, runtime messaging between popup and service worker, and a three-tier data resolution strategy (Matchday API, which resolves ESPN server-side → cache → bundled fallback). Fan confidence poll uses Firebase anonymous auth and Cloud Functions. Safari support is handled through Xcode conversion with no polyfills required.
 
-**The Result:** Published on the Chrome Web Store, with Safari support built into the codebase and workflow. GA4 telemetry via Measurement Protocol, Jest coverage, GitHub Actions CI, and Codecov integration.
+**The Result:** Published on the Chrome Web Store, with Safari support built into the codebase and workflow. Jest coverage, GitHub Actions CI, and Codecov integration.
 
 **[GitHub →](https://github.com/Tony5897/timbers-chrome-ext)**
 

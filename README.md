@@ -52,11 +52,11 @@ The product is structured around human evidence, not AI-generated predictions. I
 
 ---
 
-### [Portland Timbers Matchday](https://chromewebstore.google.com/detail/ldecngkangcclhcjcckfldafdmjlpldi) — Published Chrome Extension with Safari Support
+### [PDX Matchday](https://chromewebstore.google.com/detail/ldecngkangcclhcjcckfldafdmjlpldi) — Published Chrome Extension with Safari Support
 
-A Manifest V3 extension that shows upcoming Portland Timbers matches with a live countdown, TV/streaming info, and a fan confidence poll.
+*(formerly Portland Timbers Matchday)* A Manifest V3 extension that shows upcoming Portland Timbers matches with a live countdown, TV/streaming info, and a fan confidence poll — expanding to cover Portland Thorns matches too, as the first client of a planned multi-surface matchday platform.
 
-**The Architecture:** `chrome.storage.local` for state, alarm-based hourly refresh, runtime messaging between popup and service worker, and a three-tier data resolution strategy (live ESPN API → cache → bundled fallback). Safari support is handled through Xcode conversion with no polyfills required.
+**The Architecture:** `chrome.storage.local` for state, alarm-based hourly refresh, runtime messaging between popup and service worker, and a three-tier data resolution strategy (live ESPN API → cache → bundled fallback). Fan confidence poll uses Firebase anonymous auth and Cloud Functions. Safari support is handled through Xcode conversion with no polyfills required.
 
 **The Result:** Published on the Chrome Web Store, with Safari support built into the codebase and workflow. GA4 telemetry via Measurement Protocol, Jest coverage, GitHub Actions CI, and Codecov integration.
 
@@ -64,15 +64,19 @@ A Manifest V3 extension that shows upcoming Portland Timbers matches with a live
 
 ---
 
-### [Search Cashback Injector](https://github.com/Tony5897/search-cashback-injector) — MV3 DOM Injection Proof-of-Concept *(In Development)*
+### [Oregon Lawn Barbers](https://www.oregonlawnbarbers.com/) — Client Site
 
-A Manifest V3 Chrome extension that detects supported merchant domains in Google Search results and injects inline cashback banners next to matching results.
+End-to-end design and build for a Portland-area landscaping company: service-area pages, a quote form with validated photo-upload intake, and GA4 measurement for consent-aware traffic tracking. Conversion-focused, responsive, and deployed on Vercel with Next.js, TypeScript, and Tailwind.
 
-**The Architecture:** TypeScript + Vite build. Content script handles result link detection and domain normalization; background service worker resolves offers via a configuration-driven merchant registry with `chrome.storage.local` caching and JSON fallback data. Injected UI uses Shadow DOM for full style isolation from the host page.
+---
 
-**The Result:** A focused proof-of-concept for safe DOM orchestration, content script ↔ service worker messaging, and isolated UI injection in live search environments. Vitest coverage with GitHub Actions CI.
+### [Good Old Tee](https://goodoldtee.com) — Pre-Launch Brand Platform
 
-**[GitHub →](https://github.com/Tony5897/search-cashback-injector)**
+Live pre-launch web presence for an independent apparel brand, capturing early demand ahead of launch.
+
+**The Architecture:** Next.js, TypeScript, and Tailwind CSS, with consent-aware email signup, GA4 measurement, and commerce policy pages.
+
+**The Result:** Live and collecting signups ahead of the product drop.
 
 ---
 
@@ -88,9 +92,15 @@ A client-side coupon generator for configurable discount codes, QR output, and p
 
 ---
 
-### [Oregon Lawn Barbers](https://www.oregonlawnbarbers.com/) — Client Site
+### [PerkPop](https://chromewebstore.google.com/detail/ekimnibfchbimneodlhbnlejhhnholkk?utm_source=item-share-cb) — MV3 DOM Injection, Published Chrome Extension
 
-End-to-end design and build for a Portland-area landscaping company. Conversion-focused, responsive, and deployed on Vercel with Next.js, TypeScript, and Tailwind.
+*(formerly Search Cashback Injector)* A Manifest V3 Chrome extension that detects supported merchant domains in Google Search results and injects inline cashback banners next to matching results.
+
+**The Architecture:** TypeScript + Vite build. Content script handles result link detection and domain normalization; background service worker resolves offers via a configuration-driven merchant registry with `chrome.storage.local` caching and JSON fallback data. Injected UI uses Shadow DOM for full style isolation from the host page.
+
+**The Result:** Published on the Chrome Web Store as a technical prototype — current offer data is mock/fallback only, no real cashback payouts. Vitest coverage with GitHub Actions CI.
+
+**[GitHub →](https://github.com/Tony5897/search-cashback-injector)**
 
 ---
 

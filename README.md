@@ -5,8 +5,6 @@ Production-grade web products where interface quality, browser behavior, and rea
 
 **[Portfolio](https://www.tonymartinez.tech)** · **[LinkedIn](https://www.linkedin.com/in/tonymartinezpdx/)** · **[Email](mailto:hello@tonymartinez.tech)**
 
-**Open to full-time roles and select contract work** — reach out via [Email](mailto:hello@tonymartinez.tech) or [LinkedIn](https://www.linkedin.com/in/tonymartinezpdx/).
-
 ---
 
 ## Current Focus

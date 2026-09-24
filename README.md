@@ -1,5 +1,5 @@
 # Tony Martinez
-### Software Developer · Portland, OR · Products, Platforms and AI-Integrated Web Systems
+### Software Developer · Portland, OR · UX · Frontend · Backend · Deployment
 
 I build production-grade web products where interface quality, browser behavior, and real implementation detail matter. My work sits at the intersection of frontend engineering, browser extension architecture, AI-assisted systems, and cross-platform debugging — especially when a polished UI still has to survive real device constraints, service worker lifecycles, and production deployment realities.
 

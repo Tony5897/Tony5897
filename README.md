@@ -39,7 +39,7 @@ The product is structured around human evidence, not AI-generated predictions. I
 
 **Architecture:**
 
-- **Signal Lab workflow:** Tests, variants, reviewer sessions, tokenized public review links, behavioral event capture, survey collection, and comparison reporting — structured as a cohesive product, not isolated features
+- **Signal Lab workflow:** Tests with 2–5 variants, tokenized public review links, behavioral event capture, survey collection, and fixed comparison rules that gate release guidance behind 3–5 completed responses per variant — structured as a cohesive product, not isolated features
 - **Public reviewer sessions:** Secure token handling, expiration, stateful session tracking, and event capture without requiring reviewer authentication
 - **On-device processing:** Optional MediaPipe FaceLandmarker for client-side facial-reaction capture within the broader workspace
 - **Cross-platform constraints:** Browser- and device-specific work across Safari, iPhone, and client-side runtime handling, including multimodal input
@@ -58,7 +58,7 @@ The product is structured around human evidence, not AI-generated predictions. I
 
 **The Architecture:** `chrome.storage.local` for state, alarm-based hourly refresh, runtime messaging between popup and service worker, and a three-tier data resolution strategy (Matchday API, which resolves ESPN server-side → cache → bundled fallback). Fan confidence poll uses Firebase anonymous auth and Cloud Functions. Safari support is handled through Xcode conversion with no polyfills required.
 
-**The Result:** Published on the Chrome Web Store, with Safari support built into the codebase and workflow. Jest coverage, GitHub Actions CI, and Codecov integration.
+**The Result:** Published on the Chrome Web Store, with Safari support built into the codebase and workflow. 163 passing Jest and Vitest tests across 12 suites (extension client + backend API), GitHub Actions CI, and Codecov coverage reporting.
 
 **[GitHub →](https://github.com/Tony5897/timbers-chrome-ext)**
 
@@ -66,7 +66,7 @@ The product is structured around human evidence, not AI-generated predictions. I
 
 ### [Oregon Lawn Barbers](https://www.oregonlawnbarbers.com/) — Client Site
 
-End-to-end design and build for a Portland-area landscaping company: service-area pages, a quote form with validated photo-upload intake, and GA4 measurement for consent-aware traffic tracking. Conversion-focused, responsive, and deployed on Vercel with Next.js, TypeScript, and Tailwind.
+End-to-end design and build for a Portland-area landscaping company: 8 service-area pages across Oregon and Washington, a quote form with validated photo-upload intake, and GA4 measurement for consent-aware traffic tracking. Conversion-focused, responsive, and deployed on Vercel with Next.js, TypeScript, and Tailwind.
 
 ---
 
@@ -74,7 +74,7 @@ End-to-end design and build for a Portland-area landscaping company: service-are
 
 Live pre-launch web presence for an independent apparel brand, capturing early demand ahead of launch.
 
-**The Architecture:** Next.js, TypeScript, and Tailwind CSS, with consent-aware email signup, GA4 measurement, and commerce policy pages.
+**The Architecture:** Next.js, TypeScript, and Tailwind CSS, with consent-aware email signup, GA4 measurement, and 5 commerce policy pages (privacy, cookie, terms, shipping, returns).
 
 **The Result:** Live and collecting signups ahead of the product drop.
 
@@ -86,7 +86,7 @@ A client-side coupon generator for configurable discount codes, QR output, and p
 
 **The Architecture:** Next.js 15 (App Router) + TypeScript + Tailwind. Coupon codes use `crypto.getRandomValues` for suffix generation. QR rendering via `qrcode.react`. `localStorage` persistence across sessions. Input validation for discount ranges, code length, and expiration dates.
 
-**The Result:** Deployed on Vercel with Vitest unit coverage, ESLint, TypeScript type-checking, and GitHub Actions CI.
+**The Result:** Deployed on Vercel with 105 passing Vitest unit tests across 4 suites, ESLint, TypeScript type-checking, and GitHub Actions CI.
 
 **[GitHub →](https://github.com/Tony5897/coupon-generator)**
 
@@ -98,7 +98,7 @@ A client-side coupon generator for configurable discount codes, QR output, and p
 
 **The Architecture:** TypeScript + Vite build. Content script handles result link detection and domain normalization; background service worker resolves offers via a configuration-driven merchant registry with `chrome.storage.local` caching and JSON fallback data. Injected UI uses Shadow DOM for full style isolation from the host page.
 
-**The Result:** Published on the Chrome Web Store as a technical prototype — current offer data is mock/fallback only, no real cashback payouts. Vitest coverage with GitHub Actions CI.
+**The Result:** Published on the Chrome Web Store as a technical prototype — current offer data is mock/fallback only, no real cashback payouts. 68 passing Vitest tests reaching 98% statement coverage, with GitHub Actions CI.
 
 **[GitHub →](https://github.com/Tony5897/search-cashback-injector)**
 
